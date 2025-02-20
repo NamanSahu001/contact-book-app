@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules/
+
+# Build artifacts
+build/
+dist/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Allow .env.example
+!.env.example
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
