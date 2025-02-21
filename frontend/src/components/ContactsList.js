@@ -130,7 +130,7 @@ const fetchAllContacts = async () => {
               <td>{c.email}</td>
               <td>{c.phone_number}</td>
               <td>
-                <a href={`/contacts/${c.id}`} className="btn btn-sm btn-info me-2">View</a>
+                <a href={`/contacts/${c.id}`} className="btn btn-sm btn-outline-primary me-2">View</a>
                 <button className="btn btn-sm btn-danger" onClick={() => {handleSingleDelete(c.id)}}>Delete</button>
               </td>
             </tr>
